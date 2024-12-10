@@ -1,6 +1,5 @@
 import './App.css'
-import Cart from './CssInReact/Cart'
-import ProductList from './CssInReact/ProductList'
+import UserFunctional from './Hook/UserFunctional'
 // import { useState } from 'react'
 
 function App() {
@@ -29,8 +28,10 @@ function App() {
       {/* <Temperature /> */}
       {/* <Composition /> */}
       {/* <FilterableProductTable /> */}
-      <Cart />
-      <ProductList />
+      {/* <Cart />
+      <ProductList /> */}
+      {/* <UserClass /> */}
+      <UserFunctional />
     </div>
   )
 }
