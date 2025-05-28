@@ -1,5 +1,8 @@
 import './App.css'
-import UserFunctional from './Hook/UserFunctional'
+import Cart from './Header/Cart'
+import Navigation from './Header/Navigation'
+// import UserClass from './Hook/UserClass'
+// import UserFunctional from './Hook/UserFunctional'
 // import { useState } from 'react'
 
 function App() {
@@ -31,7 +34,10 @@ function App() {
       {/* <Cart />
       <ProductList /> */}
       {/* <UserClass /> */}
-      <UserFunctional />
+      {/* <UserFunctional /> */}
+      {/* <Parent /> */}
+      <Cart />
+      <Navigation />
     </div>
   )
 }
